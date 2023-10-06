@@ -11,6 +11,7 @@ namespace Bai1_Project
         static void Main(string[] args)
         {
             Console.WriteLine("Hello");
+            Console.WriteLine("How r u");
         }
     }
 }
