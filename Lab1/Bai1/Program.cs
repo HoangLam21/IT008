@@ -10,12 +10,8 @@ namespace Bai1_Project
     {
         static void Main(string[] args)
         {
-            //HELLO MỌI NGƯỜI
-            //TEST
-            //hellofen
+          //Check
 
-            //sao khong duocccccc
-            //alo
-
+        }
     }
 }
