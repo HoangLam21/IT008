@@ -11,6 +11,8 @@ namespace Bai1_Project
         static void Main(string[] args)
         {
             //HELLO MỌI NGƯỜI
+
+            //1234 45523 32432 
         }
     }
 }
