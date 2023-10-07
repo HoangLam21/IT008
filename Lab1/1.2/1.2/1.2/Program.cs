@@ -2,7 +2,7 @@
 
 namespace _1._2
 {
-    class PhanSo: IComparable <PhanSo>
+    public class PhanSo: IComparable <PhanSo>
     {
         private int tu;
         private int mau;
