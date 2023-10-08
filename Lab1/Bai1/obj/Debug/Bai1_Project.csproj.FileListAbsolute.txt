@@ -1,0 +1,8 @@
+C:\Users\BAO ANH\Source\Repos\IT008\Lab1\Bai1\bin\Debug\Bai1_Project.exe.config
+C:\Users\BAO ANH\Source\Repos\IT008\Lab1\Bai1\bin\Debug\Bai1_Project.exe
+C:\Users\BAO ANH\Source\Repos\IT008\Lab1\Bai1\bin\Debug\Bai1_Project.pdb
+C:\Users\BAO ANH\Source\Repos\IT008\Lab1\Bai1\obj\Debug\Bai1_Project.csproj.AssemblyReference.cache
+C:\Users\BAO ANH\Source\Repos\IT008\Lab1\Bai1\obj\Debug\Bai1_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\BAO ANH\Source\Repos\IT008\Lab1\Bai1\obj\Debug\Bai1_Project.csproj.CoreCompileInputs.cache
+C:\Users\BAO ANH\Source\Repos\IT008\Lab1\Bai1\obj\Debug\Bai1_Project.exe
+C:\Users\BAO ANH\Source\Repos\IT008\Lab1\Bai1\obj\Debug\Bai1_Project.pdb
