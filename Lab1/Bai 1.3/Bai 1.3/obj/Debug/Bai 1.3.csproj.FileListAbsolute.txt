@@ -1,7 +1,0 @@
-E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\Bai 1.3\Bai 1.3\bin\Debug\Bai 1.3.exe.config
-E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\Bai 1.3\Bai 1.3\bin\Debug\Bai 1.3.exe
-E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\Bai 1.3\Bai 1.3\bin\Debug\Bai 1.3.pdb
-E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\Bai 1.3\Bai 1.3\obj\Debug\Bai 1.3.csproj.AssemblyReference.cache
-E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\Bai 1.3\Bai 1.3\obj\Debug\Bai 1.3.csproj.CoreCompileInputs.cache
-E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\Bai 1.3\Bai 1.3\obj\Debug\Bai 1.3.exe
-E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\Bai 1.3\Bai 1.3\obj\Debug\Bai 1.3.pdb
