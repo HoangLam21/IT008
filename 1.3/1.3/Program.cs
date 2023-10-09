@@ -10,6 +10,37 @@ namespace Lab_01
     internal class Program
     {
 
+        class MaxInt
+        {
+            private int[] arr;
+
+            public void Nhap()
+            {
+                Console.WriteLine("Nhap so luong phan tu so nguyen: ");
+                int n = int.Parse(Console.ReadLine());
+                arr = new int[n];
+                for (int i = 0; i < n; i++)
+                {
+                    Console.WriteLine("Nhap vao gia tri phan tu thu {0}: ", i + 1);
+                    arr[i] = int.Parse(Console.ReadLine());
+                }
+            }
+
+            public int TimMax()
+            {
+
+                int max = arr[0];
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    if (arr[i] > max)
+                    {
+                        max = arr[i];
+                    }
+                }
+                return max;
+
+            }
+        }
         class MaxFloat
         {
             private float[] arr;
@@ -77,18 +108,7 @@ namespace Lab_01
 
         static void Main(string[] args)
         {
-            SoNguyen soNguyen = new SoNguyen();
-            soNguyen.Nhap();
-            int minNguyen = soNguyen.Min();
-
-            SoThuc soThuc = new SoThuc();
-            soThuc.Nhap();
-            double minThuc = soThuc.Min();
-
-            Chuoi chuoi = new Chuoi();
-            chuoi.Nhap();
-            string minChuoi = chuoi.Min();
-
+            
             MaxInt maxInt = new MaxInt();
             maxInt.Nhap();
             int MaxSN = maxInt.TimMax();
@@ -100,11 +120,6 @@ namespace Lab_01
             MaxSTring maxString = new MaxSTring();
             maxString.Nhap();
             string MaxS = maxString.TimMax();
-
-
-            Console.WriteLine("So nho nhat trong 1 day so nguyen: " + minNguyen + "\r\n");
-            Console.WriteLine("So nho nhat trong 1 day so thuc: " + minThuc + "\r\n");
-            Console.WriteLine("Chuoi ngan nhat trong 1 day chuoi: " + minChuoi + "\r\n");
 
 
             Console.WriteLine("So lon nhat trong 1 day so nguyen: " + MaxSN + "\r\n");
