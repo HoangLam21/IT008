@@ -25,9 +25,9 @@ namespace Bai1_Project
             public float Y { get { return y; } set { y = value; } }
             public void Point2DIn()
             {
-                Console.WriteLine("x = ");
+                Console.Write("x = ");
                 X = float.Parse(Console.ReadLine());
-                Console.WriteLine("y = ");
+                Console.Write("y = ");
                 Y = float.Parse(Console.ReadLine());
             }
             public string Poin2DToString()
