@@ -10,6 +10,7 @@ namespace _1._4
     {
         static void Main(string[] args)
         {
+            //ghjiko
         }
     }
 }
