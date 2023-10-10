@@ -10,7 +10,7 @@ namespace Lab_01
     internal class Program
     {
 
-        class MaxInt
+        class Int
         {
             private int[] arr;
 
@@ -40,8 +40,24 @@ namespace Lab_01
                 return max;
 
             }
+
+            public int TimMin()
+            {
+
+                int min = arr[0];
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    if (arr[i] < min)
+                    {
+                        min = arr[i];
+                    }
+                }
+                return min;
+
+            }
         }
-        class MaxFloat
+
+        class Float
         {
             private float[] arr;
 
@@ -71,9 +87,24 @@ namespace Lab_01
                 return max;
 
             }
+
+            public float TimMin()
+            {
+
+                float min = arr[0];
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    if (arr[i] < min)
+                    {
+                        min = arr[i];
+                    }
+                }
+                return min;
+
+            }
         }
 
-        class MaxSTring
+        class STring
         {
             private string[] arr;
 
@@ -103,23 +134,53 @@ namespace Lab_01
                 return max;
 
             }
+
+            public string TimMin()
+            {
+
+                string min = arr[0];
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    if (arr[i].Length > min.Length)
+                    {
+                        min = arr[i];
+                    }
+                }
+                return min;
+
+            }
         }
+
+        
 
 
         static void Main(string[] args)
         {
             
-            MaxInt maxInt = new MaxInt();
+            Int maxInt = new Int();
+            Int minInt = new Int();
             maxInt.Nhap();
+            minInt.Nhap();
             int MaxSN = maxInt.TimMax();
+            int MinSN = minInt.TimMin();
 
-            MaxFloat maxFloat = new MaxFloat();
+
+            Float maxFloat = new Float();
+            Float minFloat = new Float();
             maxFloat.Nhap();
+            minFloat.Nhap();
             float MaxST = maxFloat.TimMax();
+            float MinST = minFloat.TimMin();
 
-            MaxSTring maxString = new MaxSTring();
+
+            STring maxString = new STring();
+            STring minString = new STring();
             maxString.Nhap();
+            minString.Nhap();
             string MaxS = maxString.TimMax();
+            string MinS = minString.TimMin();
+
+            
 
 
             Console.WriteLine("So lon nhat trong 1 day so nguyen: " + MaxSN + "\r\n");
