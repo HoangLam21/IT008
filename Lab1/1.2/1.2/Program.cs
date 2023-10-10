@@ -2,11 +2,7 @@
 
 namespace _1._2
 {
-<<<<<<< HEAD:Lab1/1.2/1.2/1.2/Program.cs
-    public class PhanSo : IComparable<PhanSo>
-=======
     class PhanSo: IComparable <PhanSo>
->>>>>>> TraGiang:Lab1/1.2/1.2/Program.cs
     {
         private int tu;
         private int mau;
