@@ -2,7 +2,7 @@
 
 namespace _1._2
 {
-    public class PhanSo: IComparable <PhanSo>
+    public class PhanSo : IComparable<PhanSo>
     {
         private int tu;
         private int mau;
@@ -16,7 +16,7 @@ namespace _1._2
             get { return mau; }
             set { mau = value; }
         }
-        
+
         public PhanSo(int tu = 0, int mau = 1)
         {
             this.tu = tu;
@@ -66,7 +66,7 @@ namespace _1._2
         //chuyển kiểu ngầm định từ số nguyên sang phân số
         public static implicit operator PhanSo(int value)
         {
-            return new PhanSo(value,1);
+            return new PhanSo(value, 1);
         }
 
         // Chuyển kiểu tường minh từ phân số ra số thực
@@ -74,7 +74,7 @@ namespace _1._2
         {
             return (double)ps.tu / ps.mau;
         }
-        
+
 
         // các hàm tính toán + - * / và các hàm so sánh == != > <
         public static PhanSo operator +(PhanSo ps1, PhanSo ps2)
@@ -117,7 +117,7 @@ namespace _1._2
             return (ps1.tu * ps2.mau < ps1.mau * ps2.tu);
             //return ps1.CompareTo(ps2) < 0;
         }
-        
+
         // cài đặt hàm CompareTo trong interface IComparable để test Array.Sort()
         public int CompareTo(PhanSo other)
         {
