@@ -1,8 +1,0 @@
-C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\C#\BT\Lab_01\Lab_01\obj\Debug\Lab_01.csproj.AssemblyReference.cache
-C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\C#\BT\Lab_01\Lab_01\obj\Debug\Lab_01.csproj.SuggestedBindingRedirects.cache
-C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\C#\BT\Lab_01\Lab_01\obj\Debug\Lab_01.csproj.CoreCompileInputs.cache
-C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\C#\BT\Lab_01\Lab_01\bin\Debug\Lab_01.exe.config
-C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\C#\BT\Lab_01\Lab_01\bin\Debug\Lab_01.exe
-C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\C#\BT\Lab_01\Lab_01\bin\Debug\Lab_01.pdb
-C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\C#\BT\Lab_01\Lab_01\obj\Debug\Lab_01.exe
-C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\C#\BT\Lab_01\Lab_01\obj\Debug\Lab_01.pdb
