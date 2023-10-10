@@ -18,7 +18,7 @@ namespace Bai_1._3
                 Console.Write("Nhap so luong so nguyen: ");
                 n = int.Parse(Console.ReadLine());
                 songuyen = new int[n];
-                for(int  i = 0; i < songuyen.Length; i++)
+                for (int i = 0; i < songuyen.Length; i++)
                 {
                     Console.Write("Nhap so nguyen thu " + (i + 1) + ": ");
                     songuyen[i] = int.Parse(Console.ReadLine());
@@ -28,90 +28,128 @@ namespace Bai_1._3
             {
                 int min = songuyen[0];
                 for (int i = 1; i < songuyen.Length; i++)
-                { 
-                    if (songuyen[i]  < min)
+                {
+                    if (songuyen[i] < min)
                     {
                         min = songuyen[i];
                     }
                 }
                 return min;
             }
+            public int Max()
+            {
+                int max = songuyen[0];
+                for (int i = 1; i < songuyen.Length; i++)
+                {
+                    if (songuyen[i] > max)
+                    {
+                        max = songuyen[i];
+                    }
+                }
+                return max;
+            }
         }
 
         class SoThuc
         {
-            private double[] sothuc;
+            private float[] sothuc;
             public void Nhap()
             {
                 int n;
                 Console.Write("\r\nNhap so luong so thuc: ");
                 n = int.Parse(Console.ReadLine());
-                sothuc = new double[n];
+                sothuc = new float[n];
                 for (int j = 0; j < sothuc.Length; j++)
                 {
                     Console.Write("Nhap so nguyen thu " + (j + 1) + ": ");
-                    sothuc[j] = double.Parse(Console.ReadLine());
+                    sothuc[j] = float.Parse(Console.ReadLine());
                 }
             }
-            public double Min()
+            public float Min()
             {
-                double min = sothuc[0];
-                for (int j = 1; j < sothuc.Length;j++)
+                float min = sothuc[0];
+                for (int j = 1; j < sothuc.Length; j++)
                 {
-                    if(sothuc[j] < min )
+                    if (sothuc[j] < min)
                         min = sothuc[j];
                 }
                 return min;
             }
+            public float Max()
+            {
+                float max = sothuc[0];
+                for (int j = 1; j < sothuc.Length; j++)
+                {
+                    if (sothuc[j] > max)
+                        max = sothuc[j];
+                }
+                return max;
+            }
         }
-        
+
         class Chuoi
         {
-            private string[]array;
-            public void Nhap()
-            {
-                int n;
-                Console.Write("\r\nNhap so luong chuoi: ");
-                n = int.Parse(Console.ReadLine());
-                array = new string[n];
-                for (int i = 0; i < array.Length; i++)
+                private string[] array;
+                public void Nhap()
                 {
-                    Console.Write("Nhap chuoi thu " + (i+1) + ": ");
-                    array[i] = Console.ReadLine();
+                    int n;
+                    Console.Write("\r\nNhap so luong chuoi: ");
+                    n = int.Parse(Console.ReadLine());
+                    array = new string[n];
+                    for (int i = 0; i < array.Length; i++)
+                    {
+                        Console.Write("Nhap chuoi thu " + (i + 1) + ": ");
+                        array[i] = Console.ReadLine();
+                    }
                 }
-            }
-
-            public string Min()
-            {
-                string min = array[0];
-                for (int i = 1; i < array.Length; i++)
+                public string Min()
                 {
-                    if (array[i].Length < min.Length)
-                        min = array[i];
+                    string min = array[0];
+                    for (int i = 1; i < array.Length; i++)
+                    {
+                        if (array[i].Length < min.Length)
+                            min = array[i];
+                    }
+                    return min;
                 }
-                return min;
-            }
+                public string Max()
+                {
+                    string max = array[0];
+                    for (int i = 1; i < array.Length; i++)
+                    {
+                        if (array[i].Length < max.Length)
+                            max = array[i];
+                    }
+                    return max;
+                }
         }
-    static void Main(string[] args)
-        {
-            SoNguyen soNguyen = new SoNguyen();
-            soNguyen.Nhap(); 
-            int minNguyen = soNguyen.Min();
-            
-            SoThuc soThuc = new SoThuc();
-            soThuc.Nhap();
-            double minThuc = soThuc.Min();
-            
-            Chuoi chuoi = new Chuoi();
-            chuoi.Nhap();
-            string minChuoi = chuoi.Min();
+            static void Main(string[] args)
+            {
+                SoNguyen soNguyen = new SoNguyen();
+                soNguyen.Nhap();
+                int minNguyen = soNguyen.Min();
+                int maxNguyen = soNguyen.Max();
 
-            Console.WriteLine("So nho nhat trong 1 day so nguyen: " + minNguyen + "\r\n");
-            Console.WriteLine("So nho nhat trong 1 day so thuc: " + minThuc + "\r\n");
-            Console.WriteLine("Chuoi ngan nhat trong 1 day chuoi: " + minChuoi + "\r\n");
+                SoThuc soThuc = new SoThuc();
+                soThuc.Nhap();
+                float minThuc = soThuc.Min();
+                float maxThuc = soThuc.Max();
 
-            Console.ReadLine();
+                Chuoi chuoi = new Chuoi();
+                chuoi.Nhap();
+                string minChuoi = chuoi.Min();
+                string maxChuoi = chuoi.Max();
 
+                Console.WriteLine("So nho nhat trong 1 day so nguyen: " + minNguyen + "\r\n");
+                Console.WriteLine("So nho nhat trong 1 day so thuc: " + minThuc + "\r\n");
+                Console.WriteLine("Chuoi ngan nhat trong 1 day chuoi: " + minChuoi + "\r\n");
+
+                Console.WriteLine("So lon nhat trong 1 day so nguyen: " + maxNguyen + "\r\n");
+                Console.WriteLine("So lon nhat trong 1 day so thuc: " + maxThuc + "\r\n");
+                Console.WriteLine("Chuoi dai nhat trong 1 day chuoi: " + maxChuoi + "\r\n");
+
+                Console.ReadLine();
+
+            }
         }
     }
-}
