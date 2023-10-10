@@ -4,18 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-namespace _1._4
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            //ghjiko
-=======
-=======
->>>>>>> NhuHuynh
+
 namespace temperature
 {
     public delegate void ThayDoiNhietDo(float NhietDo);
@@ -78,10 +67,7 @@ namespace temperature
             } while (Console.ReadLine() != "0");
             manhinhhienthinhietdo.HuyDKNhanThongBaoSuKienThayDoiNhietDo(nhietke);
             //Console.ReadLine();
-<<<<<<< HEAD
->>>>>>> NhuHuynh
-=======
->>>>>>> NhuHuynh
+
         }
     }
 }
