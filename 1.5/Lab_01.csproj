@@ -4,11 +4,19 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<<< HEAD:1.5/Lab_01.csproj
     <ProjectGuid>{76752816-9CAB-486D-80F7-4DB00F105ACE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Lab_01</RootNamespace>
     <AssemblyName>Lab_01</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+========
+    <ProjectGuid>{657C24C5-EFF7-4A12-B177-CA7EDC27ECF1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_1._1</RootNamespace>
+    <AssemblyName>1.1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+>>>>>>>> main:Lab1/1.1/1.1/1.1.csproj
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
