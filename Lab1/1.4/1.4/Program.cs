@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace temperature
 {
     public delegate void ThayDoiNhietDo(float NhietDo);
@@ -66,6 +67,7 @@ namespace temperature
             } while (Console.ReadLine() != "0");
             manhinhhienthinhietdo.HuyDKNhanThongBaoSuKienThayDoiNhietDo(nhietke);
             //Console.ReadLine();
+
         }
     }
 }
