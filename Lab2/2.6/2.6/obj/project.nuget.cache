@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dfB74uy7W4/KX1U8//5r03HWjue1zyfFPWJlpzF8UUBRWdGm1UXC7XMPc5by0G+xFYbVjykrgVwhrROueWfPXQ==",
+  "dgSpecHash": "ijX1I2GEsaLrQ6yivi1SFyCtX1np46frz4YoHb35ZIFRhMNyoqM0tY7QgaifTaK0U34NRhcQwYscBy2NHfPbgg==",
   "success": true,
-  "projectFilePath": "D:\\Giang\\HK3\\Lập trình trực quan\\Thực hành\\Lab2\\2.6\\2.6\\2.6.csproj",
+  "projectFilePath": "D:\\Giang\\HK3\\Lập trình trực quan\\Thực hành\\New folder\\IT008\\Lab2\\2.6\\2.6\\2.6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSI GF65\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\MSI GF65\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Giang\\HK3\\Lập trình trực quan\\Thực hành\\Lab2\\2.6\\2.6\\2.6.csproj",
+      "projectUniqueName": "D:\\Giang\\HK3\\Lập trình trực quan\\Thực hành\\New folder\\IT008\\Lab2\\2.6\\2.6\\2.6.csproj",
       "projectName": "2.6",
-      "projectPath": "D:\\Giang\\HK3\\Lập trình trực quan\\Thực hành\\Lab2\\2.6\\2.6\\2.6.csproj",
+      "projectPath": "D:\\Giang\\HK3\\Lập trình trực quan\\Thực hành\\New folder\\IT008\\Lab2\\2.6\\2.6\\2.6.csproj",
       "packagesPath": "C:\\Users\\MSI GF65\\.nuget\\packages\\",
-      "outputPath": "D:\\Giang\\HK3\\Lập trình trực quan\\Thực hành\\Lab2\\2.6\\2.6\\obj\\",
+      "outputPath": "D:\\Giang\\HK3\\Lập trình trực quan\\Thực hành\\New folder\\IT008\\Lab2\\2.6\\2.6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI GF65\\AppData\\Roaming\\NuGet\\NuGet.Config",
