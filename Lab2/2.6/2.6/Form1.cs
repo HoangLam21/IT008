@@ -3,7 +3,8 @@ namespace _2._6
 {
     public partial class frmQLSV : Form
     {
-        string strCon = @"Data Source=MSI\SQLEXPRESS;Initial Catalog=QUANLYSINHVIEN;Integrated Security=True";
+        string strCon = @"Data Source=DESKTOP-V8JTTMC\MSSQLSERVER01;Initial Catalog=QLSV;Integrated Security=True";
+        //Data Source=MSI\SQLEXPRESS;Initial Catalog=QUANLYSINHVIEN;Integrated Security=True
         SqlConnection sqlCon = null;
         string mssv = null;
         public frmQLSV()
