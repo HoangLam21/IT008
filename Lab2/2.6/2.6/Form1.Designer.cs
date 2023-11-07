@@ -44,9 +44,9 @@
             this.dtpNgSinh = new System.Windows.Forms.DateTimePicker();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.txtDIACHI = new System.Windows.Forms.TextBox();
-            this.txtNGSINH = new System.Windows.Forms.TextBox();
+            this.txtGIOITINH = new System.Windows.Forms.TextBox();
             this.txtNOISINH = new System.Windows.Forms.TextBox();
-            this.txtHƠTEN = new System.Windows.Forms.TextBox();
+            this.txtHOTEN = new System.Windows.Forms.TextBox();
             this.txtMAHV = new System.Windows.Forms.TextBox();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -101,9 +101,9 @@
             this.splitContainer1.Panel2.Controls.Add(this.dtpNgSinh);
             this.splitContainer1.Panel2.Controls.Add(this.txtSDT);
             this.splitContainer1.Panel2.Controls.Add(this.txtDIACHI);
-            this.splitContainer1.Panel2.Controls.Add(this.txtNGSINH);
+            this.splitContainer1.Panel2.Controls.Add(this.txtGIOITINH);
             this.splitContainer1.Panel2.Controls.Add(this.txtNOISINH);
-            this.splitContainer1.Panel2.Controls.Add(this.txtHƠTEN);
+            this.splitContainer1.Panel2.Controls.Add(this.txtHOTEN);
             this.splitContainer1.Panel2.Controls.Add(this.txtMAHV);
             this.splitContainer1.Panel2.Controls.Add(this.btnThoat);
             this.splitContainer1.Panel2.Controls.Add(this.btnXoa);
@@ -144,6 +144,7 @@
             this.lsvDSSV.TabIndex = 0;
             this.lsvDSSV.UseCompatibleStateImageBehavior = false;
             this.lsvDSSV.View = System.Windows.Forms.View.Details;
+            this.lsvDSSV.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.lsvDSSV_ItemSelectionChanged);
             this.lsvDSSV.SelectedIndexChanged += new System.EventHandler(this.lsvDSSV_SelectedIndexChanged);
             // 
             // colMAHV
@@ -241,13 +242,13 @@
             this.txtDIACHI.Size = new System.Drawing.Size(250, 31);
             this.txtDIACHI.TabIndex = 17;
             // 
-            // txtNGSINH
+            // txtGIOITINH
             // 
-            this.txtNGSINH.Location = new System.Drawing.Point(515, 131);
-            this.txtNGSINH.Margin = new System.Windows.Forms.Padding(4);
-            this.txtNGSINH.Name = "txtNGSINH";
-            this.txtNGSINH.Size = new System.Drawing.Size(145, 31);
-            this.txtNGSINH.TabIndex = 16;
+            this.txtGIOITINH.Location = new System.Drawing.Point(515, 131);
+            this.txtGIOITINH.Margin = new System.Windows.Forms.Padding(4);
+            this.txtGIOITINH.Name = "txtGIOITINH";
+            this.txtGIOITINH.Size = new System.Drawing.Size(145, 31);
+            this.txtGIOITINH.TabIndex = 16;
             // 
             // txtNOISINH
             // 
@@ -257,13 +258,13 @@
             this.txtNOISINH.Size = new System.Drawing.Size(145, 31);
             this.txtNOISINH.TabIndex = 15;
             // 
-            // txtHƠTEN
+            // txtHOTEN
             // 
-            this.txtHƠTEN.Location = new System.Drawing.Point(131, 234);
-            this.txtHƠTEN.Margin = new System.Windows.Forms.Padding(4);
-            this.txtHƠTEN.Name = "txtHƠTEN";
-            this.txtHƠTEN.Size = new System.Drawing.Size(226, 31);
-            this.txtHƠTEN.TabIndex = 14;
+            this.txtHOTEN.Location = new System.Drawing.Point(131, 234);
+            this.txtHOTEN.Margin = new System.Windows.Forms.Padding(4);
+            this.txtHOTEN.Name = "txtHOTEN";
+            this.txtHOTEN.Size = new System.Drawing.Size(226, 31);
+            this.txtHOTEN.TabIndex = 14;
             // 
             // txtMAHV
             // 
@@ -492,9 +493,9 @@
         private DateTimePicker dtpNgSinh;
         private TextBox txtSDT;
         private TextBox txtDIACHI;
-        private TextBox txtNGSINH;
+        private TextBox txtGIOITINH;
         private TextBox txtNOISINH;
-        private TextBox txtHƠTEN;
+        private TextBox txtHOTEN;
         private TextBox txtMAHV;
         private Label lblGiaiThich;
     }
