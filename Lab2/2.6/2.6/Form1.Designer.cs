@@ -44,9 +44,9 @@
             this.dtpNgSinh = new System.Windows.Forms.DateTimePicker();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.txtDIACHI = new System.Windows.Forms.TextBox();
-            this.txtNGSINH = new System.Windows.Forms.TextBox();
+            this.txtGIOITINH = new System.Windows.Forms.TextBox();
             this.txtNOISINH = new System.Windows.Forms.TextBox();
-            this.txtHƠTEN = new System.Windows.Forms.TextBox();
+            this.txtHOTEN = new System.Windows.Forms.TextBox();
             this.txtMAHV = new System.Windows.Forms.TextBox();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -99,9 +99,9 @@
             this.splitContainer1.Panel2.Controls.Add(this.dtpNgSinh);
             this.splitContainer1.Panel2.Controls.Add(this.txtSDT);
             this.splitContainer1.Panel2.Controls.Add(this.txtDIACHI);
-            this.splitContainer1.Panel2.Controls.Add(this.txtNGSINH);
+            this.splitContainer1.Panel2.Controls.Add(this.txtGIOITINH);
             this.splitContainer1.Panel2.Controls.Add(this.txtNOISINH);
-            this.splitContainer1.Panel2.Controls.Add(this.txtHƠTEN);
+            this.splitContainer1.Panel2.Controls.Add(this.txtHOTEN);
             this.splitContainer1.Panel2.Controls.Add(this.txtMAHV);
             this.splitContainer1.Panel2.Controls.Add(this.btnThoat);
             this.splitContainer1.Panel2.Controls.Add(this.btnXoa);
@@ -201,6 +201,8 @@
             // 
             // cboMALOP
             // 
+            this.cboMALOP.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cboMALOP.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cboMALOP.FormattingEnabled = true;
             this.cboMALOP.Location = new System.Drawing.Point(105, 108);
             this.cboMALOP.Name = "cboMALOP";
@@ -232,12 +234,12 @@
             this.txtDIACHI.Size = new System.Drawing.Size(201, 27);
             this.txtDIACHI.TabIndex = 17;
             // 
-            // txtNGSINH
+            // txtGIOITINH
             // 
-            this.txtNGSINH.Location = new System.Drawing.Point(412, 105);
-            this.txtNGSINH.Name = "txtNGSINH";
-            this.txtNGSINH.Size = new System.Drawing.Size(117, 27);
-            this.txtNGSINH.TabIndex = 16;
+            this.txtGIOITINH.Location = new System.Drawing.Point(412, 105);
+            this.txtGIOITINH.Name = "txtGIOITINH";
+            this.txtGIOITINH.Size = new System.Drawing.Size(117, 27);
+            this.txtGIOITINH.TabIndex = 16;
             // 
             // txtNOISINH
             // 
@@ -246,12 +248,12 @@
             this.txtNOISINH.Size = new System.Drawing.Size(117, 27);
             this.txtNOISINH.TabIndex = 15;
             // 
-            // txtHƠTEN
+            // txtHOTEN
             // 
-            this.txtHƠTEN.Location = new System.Drawing.Point(105, 187);
-            this.txtHƠTEN.Name = "txtHƠTEN";
-            this.txtHƠTEN.Size = new System.Drawing.Size(182, 27);
-            this.txtHƠTEN.TabIndex = 14;
+            this.txtHOTEN.Location = new System.Drawing.Point(105, 187);
+            this.txtHOTEN.Name = "txtHOTEN";
+            this.txtHOTEN.Size = new System.Drawing.Size(182, 27);
+            this.txtHOTEN.TabIndex = 14;
             // 
             // txtMAHV
             // 
@@ -463,9 +465,9 @@
         private DateTimePicker dtpNgSinh;
         private TextBox txtSDT;
         private TextBox txtDIACHI;
-        private TextBox txtNGSINH;
+        private TextBox txtGIOITINH;
         private TextBox txtNOISINH;
-        private TextBox txtHƠTEN;
+        private TextBox txtHOTEN;
         private TextBox txtMAHV;
         private Label lblGiaiThich;
     }
