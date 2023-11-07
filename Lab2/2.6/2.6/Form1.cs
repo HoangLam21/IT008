@@ -4,7 +4,6 @@ namespace _2._6
     public partial class frmQLSV : Form
     {
         string strCon = @"Data Source=DESKTOP-V8JTTMC\MSSQLSERVER01;Initial Catalog=QLSV;Integrated Security=True";
-        //Data Source=MSI\SQLEXPRESS;Initial Catalog=QUANLYSINHVIEN;Integrated Security=True
         SqlConnection sqlCon = null;
         string mssv = null;
         public frmQLSV()
@@ -163,52 +162,6 @@ namespace _2._6
             mssv = lvi.SubItems[0].Text;
         }
 
-        private void btnThem_Click(object sender, EventArgs e)
-        {
-            Connect();
-            SqlCommand sqlCmd;
-            sqlCmd = new SqlCommand();
-            sqlCmd.CommandType = System.Data.CommandType.Text;
-            sqlCmd.CommandText = "INSERT INTO SINHVIEN VALUES ('" + txtMAHV + "','" + cboMALOP + "','" + txtHƠTEN + "','" + dtpNgSinh + "','" + txtNGSINH + "','" + txtNOISINH + "','" + txtDIACHI + "','" + txtSDT + "')";
-            sqlCmd.Connection = sqlCon;
 
-            int result = sqlCmd.ExecuteNonQuery();
-            if (result > 0)
-            {
-                MessageBox.Show("Đã thêm sinh viên thành công!");
-                if (chkXemDS.Checked)
-                {
-                    HienThiTatCaSinhVien();
-                }
-            }
-            else
-            {
-                MessageBox.Show("Thêm sinh viên không thành công!");
-            }
-        }
-
-        private void btnSua_Click(object sender, EventArgs e)
-        {
-            Connect();
-            SqlCommand sqlCmd;
-            sqlCmd = new SqlCommand();
-            sqlCmd.CommandType = System.Data.CommandType.Text;
-            sqlCmd.CommandText = "UPDATE SINHVIEN SET  MAHV='" + txtMAHV + "',MALOP='" + cboMALOP + "',HOTEN='" + txtHƠTEN + "',NGSINH='" + dtpNgSinh + "',GIOITINH='" + txtNGSINH + "',NOISINH='" + txtNOISINH + "',DIACHI='" + txtDIACHI + "',SDT='" + txtSDT + "')";
-            sqlCmd.Connection = sqlCon;
-
-            int result = sqlCmd.ExecuteNonQuery();
-            if (result > 0)
-            {
-                MessageBox.Show("Sửa sinh viên thành công!");
-                if (chkXemDS.Checked)
-                {
-                    HienThiTatCaSinhVien();
-                }
-            }
-            else
-            {
-                MessageBox.Show("Sửa sinh viên không thành công!");
-            }
-        }
     }
 }
