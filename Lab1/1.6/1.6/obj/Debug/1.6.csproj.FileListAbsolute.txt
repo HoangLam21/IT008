@@ -1,0 +1,7 @@
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\1.6\1.6\bin\Debug\1.6.exe.config
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\1.6\1.6\bin\Debug\1.6.exe
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\1.6\1.6\bin\Debug\1.6.pdb
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\1.6\1.6\obj\Debug\1.6.csproj.AssemblyReference.cache
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\1.6\1.6\obj\Debug\1.6.csproj.CoreCompileInputs.cache
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\1.6\1.6\obj\Debug\1.6.exe
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\Lab 1\1.6\1.6\obj\Debug\1.6.pdb

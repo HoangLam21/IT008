@@ -10,7 +10,11 @@ namespace Lab_01
     internal class Program
     {
 
+<<<<<<< HEAD
         class Int
+=======
+        class MaxInt
+>>>>>>> origin/QuynhAnh
         {
             private int[] arr;
 
@@ -40,6 +44,7 @@ namespace Lab_01
                 return max;
 
             }
+<<<<<<< HEAD
 
             public int TimMin()
             {
@@ -58,6 +63,10 @@ namespace Lab_01
         }
 
         class Float
+=======
+        }
+        class MaxFloat
+>>>>>>> origin/QuynhAnh
         {
             private float[] arr;
 
@@ -87,6 +96,7 @@ namespace Lab_01
                 return max;
 
             }
+<<<<<<< HEAD
 
             public float TimMin()
             {
@@ -105,6 +115,11 @@ namespace Lab_01
         }
 
         class STring
+=======
+        }
+
+        class MaxSTring
+>>>>>>> origin/QuynhAnh
         {
             private string[] arr;
 
@@ -134,6 +149,7 @@ namespace Lab_01
                 return max;
 
             }
+<<<<<<< HEAD
 
             public string TimMin()
             {
@@ -153,10 +169,15 @@ namespace Lab_01
 
         
 
+=======
+        }
+
+>>>>>>> origin/QuynhAnh
 
         static void Main(string[] args)
         {
             
+<<<<<<< HEAD
             Int maxInt = new Int();
             Int minInt = new Int();
             maxInt.Nhap();
@@ -181,6 +202,19 @@ namespace Lab_01
             string MinS = minString.TimMin();
 
             
+=======
+            MaxInt maxInt = new MaxInt();
+            maxInt.Nhap();
+            int MaxSN = maxInt.TimMax();
+
+            MaxFloat maxFloat = new MaxFloat();
+            maxFloat.Nhap();
+            float MaxST = maxFloat.TimMax();
+
+            MaxSTring maxString = new MaxSTring();
+            maxString.Nhap();
+            string MaxS = maxString.TimMax();
+>>>>>>> origin/QuynhAnh
 
 
             Console.WriteLine("So lon nhat trong 1 day so nguyen: " + MaxSN + "\r\n");
