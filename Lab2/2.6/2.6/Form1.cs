@@ -1,9 +1,11 @@
 ﻿using System.Data.SqlClient;
+using System.Globalization;
+
 namespace _2._6
 {
     public partial class frmQLSV : Form
     {
-        string strCon = @"Data Source=DESKTOP-V8JTTMC\MSSQLSERVER01;Initial Catalog=QLSV;Integrated Security=True";
+        string strCon = @"Data Source=MSI\SQLEXPRESS;Initial Catalog=QUANLYSINHVIEN;Integrated Security=True";
         SqlConnection sqlCon = null;
         string mssv = null;
         public frmQLSV()
@@ -74,11 +76,10 @@ namespace _2._6
         {
             Connect();
             SqlCommand sqlCmd = new SqlCommand();
-            sqlCmd.CommandType = System.Data.CommandType.Text;
-            sqlCmd.CommandText = "SELECT *FROM SINHVIEN WHERE MALOP = '" + ml +"'";
+            sqlCmd.CommandType = System.Data.CommandType.Text; sqlCmd.CommandText = "SELECT *FROM SINHVIEN WHERE MALOP = '" + ml + "'";
             sqlCmd.Connection = sqlCon;
             lsvDSSV.Items.Clear();
-            
+
             SqlDataReader reader = sqlCmd.ExecuteReader();
             while (reader.Read())
             {
@@ -147,8 +148,7 @@ namespace _2._6
                 int result = sqlCmd.ExecuteNonQuery();
                 if (result > 0)
                 {
-                    MessageBox.Show("Xóa dữ liệu thành công !");
-                    if (chkXemDS.Checked)
+                    MessageBox.Show("Xóa dữ liệu thành công !"); if (chkXemDS.Checked)
                         HienThiTatCaSinhVien();
                 }
                 else
@@ -162,7 +162,6 @@ namespace _2._6
             ListViewItem lvi = lsvDSSV.SelectedItems[0];
             mssv = lvi.SubItems[0].Text;
         }
-        
 
         private void btnThem_Click(object sender, EventArgs e)
         {
@@ -171,7 +170,7 @@ namespace _2._6
             sqlCmd = new SqlCommand();
             sqlCmd.CommandType = System.Data.CommandType.Text;
             DateTime nsinh = dtpNgSinh.Value;
-            sqlCmd.CommandText = "INSERT INTO SINHVIEN VALUES '" + txtMAHV.Text + "','" + cboMALOP.SelectedItem + "',N'" + txtHOTEN.Text + "','" + nsinh + "',N'" + txtGIOITINH.Text + "',N'" + txtNOISINH.Text + "',N'" + txtDIACHI.Text + "','" + txtSDT.Text + "')";
+            sqlCmd.CommandText = "INSERT INTO SINHVIEN VALUES ('" + txtMAHV.Text + "','" + cboMALOP.SelectedItem + "',N'" + txtHOTEN.Text + "','" + nsinh + "',N'" + txtGIOITINH.Text + "',N'" + txtNOISINH.Text + "',N'" + txtDIACHI.Text + "','" + txtSDT.Text + "')";
             sqlCmd.Connection = sqlCon;
 
             int result = sqlCmd.ExecuteNonQuery();
@@ -188,7 +187,6 @@ namespace _2._6
                 MessageBox.Show("Thêm sinh viên không thành công!");
             }
         }
-
         private void lsvDSSV_ItemSelectionChanged(object sender, ListViewItemSelectionChangedEventArgs e)
         {
             if (e.IsSelected)
@@ -208,9 +206,7 @@ namespace _2._6
         private void btnSua_Click(object sender, EventArgs e)
         {
             if (lsvDSSV.SelectedItems[0].Text != txtMAHV.Text)
-            {
                 MessageBox.Show("Không được sửa MSSV");
-            }
             else
             {
                 Connect();
@@ -228,8 +224,10 @@ namespace _2._6
                     if (chkXemDS.Checked)
                     {
                         HienThiTatCaSinhVien();
+
                     }
                 }
+
                 else
                 {
                     MessageBox.Show("Sửa sinh viên không thành công!");
@@ -237,4 +235,5 @@ namespace _2._6
             }
         }
     }
+    
 }
