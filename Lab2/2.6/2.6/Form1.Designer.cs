@@ -207,6 +207,8 @@
             // 
             // cboMALOP
             // 
+            this.cboMALOP.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cboMALOP.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cboMALOP.FormattingEnabled = true;
             this.cboMALOP.Location = new System.Drawing.Point(131, 135);
             this.cboMALOP.Margin = new System.Windows.Forms.Padding(4);
