@@ -9,6 +9,7 @@ namespace _2._6
         public frmQLSV()
         {
             InitializeComponent();
+            lsvDSSV.ItemSelectionChanged += lsvDSSV_ItemSelectionChanged;
         }
 
         private void frmQLSV_Load(object sender, EventArgs e)
@@ -161,5 +162,80 @@ namespace _2._6
             ListViewItem lvi = lsvDSSV.SelectedItems[0];
             mssv = lvi.SubItems[0].Text;
         }
+
+        private void lsvDSSV_ItemSelectionChanged(object sender, ListViewItemSelectionChangedEventArgs e)
+        {
+            if (e.IsSelected)
+            {
+                ListViewItem selectedRow = e.Item;
+                txtMAHV.Text = selectedRow.SubItems[0].Text;
+                cboMALOP.SelectedItem = selectedRow.SubItems[1].Text;
+                txtHOTEN.Text = selectedRow.SubItems[2].Text;
+                dtpNgSinh.Text = selectedRow.SubItems[3].Text;
+                txtGIOITINH.Text = selectedRow.SubItems[4].Text;
+                txtNOISINH.Text = selectedRow.SubItems[5].Text;
+                txtDIACHI.Text = selectedRow.SubItems[6].Text;
+                txtSDT.Text = selectedRow.SubItems[7].Text;
+                //txtMAHV.ReadOnly = true;
+            }
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            Connect();
+            SqlCommand sqlCmd;
+            sqlCmd = new SqlCommand();
+            sqlCmd.CommandType = System.Data.CommandType.Text;
+            DateTime nsinh = dtpNgSinh.Value;
+            sqlCmd.CommandText = "INSERT INTO SINHVIEN VALUES ('" + txtMAHV.Text + "','" + cboMALOP.SelectedItem + "',N'" + txtHOTEN.Text + "','" + nsinh + "',N'" + txtGIOITINH.Text + "',N'" + txtNOISINH.Text + "',N'" + txtDIACHI.Text + "','" + txtSDT.Text + "')";
+            sqlCmd.Connection = sqlCon;
+
+            int result = sqlCmd.ExecuteNonQuery();
+            if (result > 0)
+            {
+                MessageBox.Show("Đã thêm sinh viên thành công!");
+                if (chkXemDS.Checked)
+                {
+                    HienThiTatCaSinhVien();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Thêm sinh viên không thành công!");
+            }
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+            if (lsvDSSV.SelectedItems[0].Text != txtMAHV.Text)
+                MessageBox.Show("Không được sửa MSSV");
+            else
+            {
+                Connect();
+                SqlCommand sqlCmd;
+                sqlCmd = new SqlCommand();
+                sqlCmd.CommandType = System.Data.CommandType.Text;
+                DateTime nsinh = dtpNgSinh.Value;
+                sqlCmd.CommandText = "UPDATE SINHVIEN SET  MAHV='" + txtMAHV.Text + "',MALOP='" + cboMALOP.SelectedItem + "',HOTEN=N'" + txtHOTEN.Text + "',NGSINH='" + nsinh + "',GIOITINH=N'" + txtGIOITINH.Text + "',NOISINH=N'" + txtNOISINH.Text + "',DIACHI=N'" + txtDIACHI.Text + "',SDT='" + txtSDT.Text + "'WHERE MAHV =  '" + txtMAHV.Text + "'";
+                sqlCmd.Connection = sqlCon;
+
+                int result = sqlCmd.ExecuteNonQuery();
+                if (result > 0)
+                {
+                    MessageBox.Show("Sửa sinh viên thành công!");
+                    if (chkXemDS.Checked)
+                    {
+                        HienThiTatCaSinhVien();
+
+                    }
+                }
+
+                else
+                {
+                    MessageBox.Show("Sửa sinh viên không thành công!");
+                }
+            }
+        }
     }
+
 }
