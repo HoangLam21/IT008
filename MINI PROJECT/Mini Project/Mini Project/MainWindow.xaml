@@ -3,10 +3,83 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:Mini_Project"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+       mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="450" WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        ResizeMode="NoResize">
+    <Border Background="#F0FFF0">
+        <Grid>
+            <Button HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,3,38,0" Click="Button_Click_1" Background="#F0FFF0" BorderBrush="Transparent" Width="28">
+                <StackPanel Orientation="Horizontal" >
+                    <materialDesign:PackIcon Kind="WindowMinimize" Foreground="BLACK" Height="24" Width="24" Margin="0,0,8,0"/>
+                </StackPanel>
+            </Button>
+
+            <Button HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,3,10,0" Click="Button_Click" Background="#F0FFF0" BorderBrush="Transparent">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="CloseThick" Foreground="BLACK" Height="24" Width="24"/>
+                </StackPanel>
+            </Button>
+
+            <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Grid Height="450" Width="350">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="197"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,80,0,0">
+                            <TextBlock TextAlignment="Left" FontSize="30"  Foreground="#7CCD7C" FontWeight="Bold" Width="350">Chào mừng bạn</TextBlock>
+                            <TextBlock TextAlignment="Right" FontSize="30" Foreground="#7CCD7C" FontWeight="Bold" Width="350" Text="đến với TicketBox"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Grid.Row="1">
+                        <StackPanel Margin="0,30,0,10" >
+                            <Button Content="DEMO EVENT"
+                                IsDefault="true"
+                                Height="47"
+                                Width="333"
+                                Background="#7CCD7C"
+                                Foreground="Black"
+                                FontWeight="Bold"
+                                BorderBrush="Transparent" Click="DemoButton_Click" x:Name="Demo">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}"
+                                            BorderBrush="{TemplateBinding BorderBrush}"
+                                            BorderThickness="{TemplateBinding BorderThickness}"
+                                            CornerRadius="24">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                        </Border>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                            <Button Content="REALITITIES"
+                                IsDefault="true"
+                                Height="47"
+                                Width="333"
+                                Background="#7CCD7C"
+                                Foreground="Black"
+                                FontWeight="Bold"
+                                BorderBrush="Transparent" Margin="0,20,0,0" x:Name="Realities" Click="Realities_Click">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}"
+                                            BorderBrush="{TemplateBinding BorderBrush}"
+                                            BorderThickness="{TemplateBinding BorderThickness}"
+                                            CornerRadius="24">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                        </Border>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                            <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Width="250"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Border>
 </Window>
