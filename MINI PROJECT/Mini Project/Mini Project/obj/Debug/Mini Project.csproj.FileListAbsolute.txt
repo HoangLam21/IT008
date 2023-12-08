@@ -1,0 +1,28 @@
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\App.g.cs
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project_MarkupCompile.cache
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project_MarkupCompile.lref
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.exe.config
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.exe
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.pdb
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignColors.dll
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\MainWindow.baml
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.g.resources
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini_Project.Properties.Resources.resources
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.GenerateResource.cache
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.CopyComplete
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.exe
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.pdb
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\DemoEvent.g.cs
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\TimerEvent.g.cs
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\DemoEvent.baml
+C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\TimerEvent.baml
