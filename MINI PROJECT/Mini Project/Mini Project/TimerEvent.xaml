@@ -1,0 +1,146 @@
+﻿<Window x:Class="Mini_Project.TimerEvent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mini_Project"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+           Title="Timer" Height="515" Width="515" WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        ResizeMode="NoResize">
+
+    <Border Background="#F0FFF0">
+        <Grid>
+            <Button HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,3,38,0" Background="#F0FFF0" BorderBrush="Transparent" Width="28" Click="Button_Click" >
+                <StackPanel Orientation="Horizontal" >
+                    <materialDesign:PackIcon Kind="WindowMinimize" Foreground="BLACK" Height="24" Width="24" Margin="0,0,8,0"/>
+                </StackPanel>
+            </Button>
+
+            <Button HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,3,10,0"  Background="#F0FFF0" BorderBrush="Transparent" Click="Button_Click_1" >
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="CloseThick" Foreground="BLACK" Height="24" Width="24"/>
+                </StackPanel>
+            </Button>
+            <StackPanel Margin="0,13,322,406">
+                <materialDesign:PackIcon Kind="AvTimer" Foreground="Black" Height="30" Width="30" Margin="30,25,0,0">
+                    <materialDesign:PackIcon.Effect>
+                        <DropShadowEffect ShadowDepth="1" Opacity="0.7"/>
+                    </materialDesign:PackIcon.Effect>
+                </materialDesign:PackIcon>
+            </StackPanel>
+            <StackPanel Margin="40,30,0,409">
+                <TextBlock
+        HorizontalAlignment="Left"
+        Text="   Hẹn giờ!"
+        FontSize="30"
+        FontWeight="Bold"
+        Foreground="Chocolate" Height="60" Width="211">
+                </TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical"  Margin="50,125,347,290">
+                <TextBlock FontSize="16"
+                Margin="-10,0,0,0" Text="Hours"
+                FontWeight="Bold" HorizontalAlignment="Center" Width="50" />
+                <Border  
+                Height="34"
+                x:Name="HourBorder"
+                HorizontalAlignment="Left"
+                    Margin="0,0,0,0"
+                Width="100"
+                BorderThickness="2"
+                CornerRadius="15" BorderBrush="#7CCD7C">
+                    <TextBox x:Name="Hour" FontSize="16"
+                    VerticalAlignment="Center"
+                    BorderThickness="0" 
+                             TextAlignment="Center"
+                             Margin="0,0,10,0"
+                    Background="Transparent"
+                    Padding="2"
+                    materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
+                    materialDesign:TextFieldAssist.TextBoxViewMargin="10,10,0,0"
+                    materialDesign:TextFieldAssist.UnderlineBrush="#7CCD7C" Height="50"/>
+                </Border>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical"  Margin="199,125,199,292">
+                <TextBlock FontSize="16"
+                Margin="-10,0,0,0" Text="Minutes"
+                FontWeight="Bold" HorizontalAlignment="Center" Width="69"/>
+                <Border  
+                Height="34"
+                x:Name="MinBorder"
+                HorizontalAlignment="Left"
+                Width="100"
+                BorderThickness="2"
+                CornerRadius="15" BorderBrush="#7CCD7C">
+                    <TextBox x:Name="Minute" FontSize="16"
+                        VerticalAlignment="Center" 
+                        BorderThickness="0" TextAlignment="Center"
+                        Background="Transparent"
+                        Padding="2"
+                        materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
+                        materialDesign:TextFieldAssist.TextBoxViewMargin="10,10,0,0"
+                        materialDesign:TextFieldAssist.UnderlineBrush="#7CCD7C" Height="50" Margin="0,0,8,0"/>
+                </Border>
+            </StackPanel>
+            <StackPanel Orientation="Vertical"  Margin="350,125,50,295">
+                <TextBlock FontSize="16"
+                Margin="-10,0,0,0" Text="Seconds"
+                FontWeight="Bold" HorizontalAlignment="Center" Width="69"/>
+                <Border  
+                Height="34"
+                x:Name="SecBorder"
+                HorizontalAlignment="Left"
+                Width="100"
+                BorderThickness="2"
+                CornerRadius="15" BorderBrush="#7CCD7C">
+                    <TextBox x:Name="Second" FontSize="16"
+                    VerticalAlignment="Center"
+                    BorderThickness="0"
+                             HorizontalAlignment="Left"
+                    Background="Transparent" 
+                    Padding="2" Width="80" TextAlignment="Center"
+                    materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
+                    materialDesign:TextFieldAssist.TextBoxViewMargin="20,10,0,0"
+                    materialDesign:TextFieldAssist.UnderlineBrush="#7CCD7C" Height="50" Margin="-2,0,0,0"  />
+                </Border>
+            </StackPanel>
+            <Button ToolTip="MaterialDesignFloatingActionDarkButton" Background="#7CCD7C" BorderBrush="Black" BorderThickness="2" Margin="200,200,200,200" x:Name="CountDown" Click="CountDown_Click">
+                <Button.Effect>
+                    <DropShadowEffect Color="Black" Direction="320" ShadowDepth="5" Opacity="0.5"/>
+                </Button.Effect>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Ellipse Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Fill="{TemplateBinding Background}" />
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Button.Template>
+                <materialDesign:PackIcon Kind="Alarm" Height="30" Width="30" />
+            </Button>
+
+            <Border BorderBrush="Black" BorderThickness="1.5" CornerRadius="15" VerticalAlignment="Bottom">
+                <TextBlock Height="160" Margin="0,0,0,0" Background="Transparent"  HorizontalAlignment="Center" VerticalAlignment="Center" 
+                          
+               TextAlignment="Center"  x:Name="CountDownTextBlock" FontSize="50">
+                    <TextBlock.Style >
+                        <Style TargetType="TextBlock">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="White"/>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="False">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+            </Border>
+
+        </Grid>
+    </Border>
+</Window>
