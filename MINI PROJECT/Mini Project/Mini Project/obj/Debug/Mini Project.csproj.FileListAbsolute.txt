@@ -58,3 +58,46 @@ E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Pro
 E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.CopyComplete
 E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.exe
 E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.pdb
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.AssemblyReference.cache
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\DemoEvent.g.cs
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\MainWindow.g.cs
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Realities.g.cs
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Timer.g.cs
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\TimerEvent.g.cs
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\App.g.cs
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project_Content.g.cs
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project_MarkupCompile.cache
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project_MarkupCompile.lref
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.exe
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.pdb
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.exe.config
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.exe
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.pdb
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignColors.dll
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\WebDriver.dll
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\WebDriver.Support.dll
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignColors.pdb
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\WebDriver.xml
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\WebDriver.Support.xml
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\DemoEvent.baml
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\MainWindow.baml
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Realities.baml
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Timer.baml
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\TimerEvent.baml
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.g.resources
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini_Project.Properties.Resources.resources
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.GenerateResource.cache
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.CoreCompileInputs.cache
+C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.CopyComplete

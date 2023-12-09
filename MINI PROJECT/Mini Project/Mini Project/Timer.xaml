@@ -46,18 +46,18 @@
                 <Border  
                 Height="34"
                 x:Name="HourBorder"
-                HorizontalAlignment="Left"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
                 Width="100"
                 BorderThickness="2"
                 CornerRadius="15" BorderBrush="#7CCD7C">
-                    <TextBox x:Name="Hour" FontSize="16"
-                    VerticalAlignment="Center" HorizontalAlignment="Center"
-                    BorderThickness="0"
-                    Background="Transparent" TextAlignment="Center"
+                                    <TextBox x:Name="Hour" FontSize="16"
+                    VerticalAlignment="Center"
+                    BorderThickness="0" TextAlignment="Center"
+                    Background="Transparent"
                     Padding="2"
                     materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
-                    materialDesign:TextFieldAssist.TextBoxViewMargin="10,0,0,0"
-                    materialDesign:TextFieldAssist.UnderlineBrush="#7CCD7C" Height="50"/>
+                    materialDesign:TextFieldAssist.TextBoxViewMargin="10,10,0,0"
+                    materialDesign:TextFieldAssist.UnderlineBrush="#7CCD7C" Height="50" Margin="0,0,8,0"/>
                 </Border>
             </StackPanel>
 
@@ -66,20 +66,21 @@
                 Margin="8,0,0,0" Text="Minutes"
                 FontWeight="Bold" HorizontalAlignment="Center" Width="69"/>
                 <Border  
-                Height="34"
+               Height="34"
                 x:Name="MinBorder"
-                HorizontalAlignment="Left"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+
                 Width="100"
                 BorderThickness="2"
                 CornerRadius="15" BorderBrush="#7CCD7C">
-                    <TextBox x:Name="Minute" FontSize="16"
-                    VerticalAlignment="Center" HorizontalAlignment="Center"
-                    BorderThickness="0"
-                    Background="Transparent" TextAlignment="Center"
+                                    <TextBox x:Name="Minute" FontSize="16"
+                    VerticalAlignment="Center" 
+                    BorderThickness="0" TextAlignment="Center"
+                    Background="Transparent"
                     Padding="2"
                     materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
-                    materialDesign:TextFieldAssist.TextBoxViewMargin="10,0,0,0"
-                    materialDesign:TextFieldAssist.UnderlineBrush="#7CCD7C" Height="50"/>
+                    materialDesign:TextFieldAssist.TextBoxViewMargin="10,10,0,0"
+                    materialDesign:TextFieldAssist.UnderlineBrush="#7CCD7C" Height="50" Margin="0,0,8,0"/>
                 </Border>
             </StackPanel>
             <StackPanel Orientation="Vertical"  Margin="350,125,50,295">
@@ -87,20 +88,21 @@
                 Margin="8,0,0,0" Text="Seconds"
                 FontWeight="Bold" HorizontalAlignment="Center" Width="69"/>
                 <Border  
-                Height="34"
-                x:Name="SecBorder"
-                HorizontalAlignment="Left"
-                Width="100"
-                BorderThickness="2"
-                CornerRadius="15" BorderBrush="#7CCD7C">
-                    <TextBox x:Name="Second" FontSize="16"
-                    VerticalAlignment="Center" HorizontalAlignment="Center"
-                    BorderThickness="0"
-                    Background="Transparent" TextAlignment="Center"
-                    Padding="2"
-                    materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
-                    materialDesign:TextFieldAssist.TextBoxViewMargin="10,0,0,0"
-                    materialDesign:TextFieldAssist.UnderlineBrush="#7CCD7C" Height="50"  />
+                 Height="34"
+                 x:Name="SecBorder"
+                 HorizontalAlignment="Center" VerticalAlignment="Center"
+ 
+                 Width="100"
+                 BorderThickness="2"
+                 CornerRadius="15" BorderBrush="#7CCD7C">
+                                    <TextBox x:Name="Second" FontSize="16"
+                     VerticalAlignment="Center" 
+                     BorderThickness="0" TextAlignment="Center"
+                     Background="Transparent"
+                     Padding="2"
+                     materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
+                     materialDesign:TextFieldAssist.TextBoxViewMargin="10,10,0,0"
+                     materialDesign:TextFieldAssist.UnderlineBrush="#7CCD7C" Height="50" Margin="0,0,8,0" />
                 </Border>
             </StackPanel>
             <Button ToolTip="MaterialDesignFloatingActionDarkButton" Background="#7CCD7C" BorderBrush="Black" BorderThickness="2" Margin="200,200,200,200" x:Name="CountDowm" Click="CountDowm_Click">
@@ -120,7 +122,8 @@
 
             <Border BorderBrush="Black" BorderThickness="1.5" CornerRadius="15" VerticalAlignment="Bottom">
                 <TextBlock Height="160" Margin="10" Background="Transparent"
-                TextAlignment="Center" VerticalAlignment="Center" x:Name="CountDownTextBlock">
+    HorizontalAlignment="Center" VerticalAlignment="Center"
+    TextAlignment="Center" x:Name="CountDownTextBlock" FontSize="50">
                     <TextBlock.Style>
                         <Style TargetType="TextBlock">
                             <Style.Triggers>
