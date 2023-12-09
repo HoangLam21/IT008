@@ -66,6 +66,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Realities.xaml.cs">
+      <DependentUpon>Realities.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Timer.xaml.cs">
+      <DependentUpon>Timer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TimerEvent.xaml.cs">
       <DependentUpon>TimerEvent.xaml</DependentUpon>
     </Compile>
@@ -88,6 +94,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Realities.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Timer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TimerEvent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

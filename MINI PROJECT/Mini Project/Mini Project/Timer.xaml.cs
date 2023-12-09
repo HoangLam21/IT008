@@ -10,36 +10,37 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Mini_Project
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Timer.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Timer : Window
     {
-        public MainWindow()
+        public static event Action OnTimerClosed;
+        public Timer()
         {
             InitializeComponent();
+            CenterWindowOnScreen();
         }
-        private void Realities_Click(object sender, RoutedEventArgs e)
+        private void CenterWindowOnScreen()
         {
-
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
         }
-
-        private void DemoButton_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            this.WindowState = WindowState.Minimized;
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            OnTimerClosed?.Invoke();
+            this.Close();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void CountDowm_Click(object sender, RoutedEventArgs e)
         {
 
         }

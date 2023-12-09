@@ -26,3 +26,35 @@ C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Projec
 C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\TimerEvent.g.cs
 C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\DemoEvent.baml
 C:\Users\Lenovo\Documents\HK3\LTTQ\TH\IT008_huynh\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\TimerEvent.baml
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.exe.config
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.exe
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.pdb
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignColors.dll
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.dll
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignColors.pdb
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.xml
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.AssemblyReference.cache
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\DemoEvent.g.cs
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\MainWindow.g.cs
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Realities.g.cs
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Timer.g.cs
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\TimerEvent.g.cs
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\App.g.cs
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project_MarkupCompile.cache
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project_MarkupCompile.lref
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\DemoEvent.baml
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\MainWindow.baml
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\TimerEvent.baml
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Realities.baml
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Timer.baml
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.g.resources
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini_Project.Properties.Resources.resources
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.GenerateResource.cache
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.CoreCompileInputs.cache
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.CopyComplete
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.exe
+E:\Document\ME\HK3\3. Lập trình trực quan\2. TH\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.pdb
