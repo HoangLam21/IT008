@@ -20,15 +20,17 @@ namespace Mini_Project
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+           
         }
         private void Realities_Click(object sender, RoutedEventArgs e)
         {
-
+           
         }
-
+       
         private void DemoButton_Click(object sender, RoutedEventArgs e)
         {
 

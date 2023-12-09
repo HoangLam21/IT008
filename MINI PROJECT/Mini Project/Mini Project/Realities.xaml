@@ -78,7 +78,7 @@
                                 Width="199"
                                 BorderThickness="2"
                                 CornerRadius="15" BorderBrush="#7CCD7C">
-                                <PasswordBox  x:Name="password" FontSize="12"
+                                <TextBox  x:Name="mk" FontSize="12"
                                         VerticalAlignment="Center"
                                          BorderThickness="0"
                                          Background="Transparent"
@@ -383,10 +383,14 @@
             </Grid>
 
             <Grid  Grid.Row="3">
-                <CheckBox IsChecked="True" FontSize="14" FontWeight="DemiBold"
-                Content="Đăng nhập hàng loạt" Margin ="20,15,27,0" Height="30" VerticalAlignment="Top"/>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="101*"/>
+                    <ColumnDefinition Width="199*"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox x:Name="checkBox1" FontSize="14" FontWeight="DemiBold"
+                Content="Đăng nhập hàng loạt" Margin ="20,15,27,0" Height="30" VerticalAlignment="Top" Grid.ColumnSpan="2" Checked="checkBox1_Checked_1"/>
 
-                <StackPanel Orientation="Horizontal" Margin="100,44,100,27" >
+                <StackPanel Orientation="Horizontal" Margin="100,44,100,27" Grid.ColumnSpan="2" >
                     <Button 
                   Background="#C1CDC1"
                   Foreground="Black"
