@@ -36,7 +36,7 @@
                         FontSize="20"
                         FontWeight="Bold"
                         Height="26"
-                        Foreground="Chocolate" Width="276">
+                        Foreground="Chocolate" Width="277">
                     </TextBlock>
                     <materialDesign:PackIcon Kind="Account" Foreground="Black" Height="20" Width="20" Margin="20,-22,0,0">
                         <materialDesign:PackIcon.Effect>
@@ -353,7 +353,7 @@
                     <TextBox VerticalAlignment="Center"
                            FontSize="12"
                            materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
-                           x:Name="SL" Margin="72,0,0,0" Width="70" VerticalContentAlignment="Center"
+                           x:Name="SL" Margin="72,0,0,0" Width="131" VerticalContentAlignment="Center"
                            HorizontalContentAlignment="Center">
                         <TextBox.Template>
                             <ControlTemplate TargetType="{x:Type TextBox}">
