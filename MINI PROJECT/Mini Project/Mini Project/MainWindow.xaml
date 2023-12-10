@@ -6,6 +6,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:Mini_Project"
        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="650" Width="450" WindowStyle="None" AllowsTransparency="True" Background="Transparent"
         ResizeMode="NoResize">
     <Border Background="#F0FFF0">

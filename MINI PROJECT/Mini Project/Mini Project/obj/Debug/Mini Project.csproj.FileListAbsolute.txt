@@ -101,3 +101,46 @@ C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Techn
 C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.GenerateResource.cache
 C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.CoreCompileInputs.cache
 C:\Users\BAO ANH\OneDrive - Trường ĐH CNTT - University of Information Technology\HKIII\LTTQ\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.CopyComplete
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\selenium-manager\linux\selenium-manager
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\selenium-manager\macos\selenium-manager
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.exe.config
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.exe
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Mini Project.pdb
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignColors.dll
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Newtonsoft.Json.dll
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\SeleniumExtras.WaitHelpers.dll
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\WebDriver.dll
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\WebDriver.Support.dll
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignColors.pdb
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\Newtonsoft.Json.xml
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\WebDriver.xml
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\bin\Debug\WebDriver.Support.xml
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.AssemblyReference.cache
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\DemoEvent.g.cs
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\MainWindow.g.cs
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Realities.g.cs
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Timer.g.cs
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\TimerEvent.g.cs
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\App.g.cs
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project_Content.g.cs
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project_MarkupCompile.cache
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project_MarkupCompile.lref
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\DemoEvent.baml
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\MainWindow.baml
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Realities.baml
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Timer.baml
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\TimerEvent.baml
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.g.resources
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini_Project.Properties.Resources.resources
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.GenerateResource.cache
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.CoreCompileInputs.cache
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.csproj.CopyComplete
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.exe
+D:\Giang\HK3\Lập trình trực quan\Thực hành\New folder\IT008\MINI PROJECT\Mini Project\Mini Project\obj\Debug\Mini Project.pdb

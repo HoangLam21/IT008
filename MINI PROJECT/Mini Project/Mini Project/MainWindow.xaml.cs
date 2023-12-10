@@ -24,26 +24,33 @@ namespace Mini_Project
         public MainWindow()
         {
             InitializeComponent();
-           
+            DemoEvent.OnDemoClosed += ShowMainWindow;
+            Mini_Project.Realities.OnRealitiesClosed += ShowMainWindow;
+        }
+        public void ShowMainWindow()
+        {
+            this.Show();
         }
         private void Realities_Click(object sender, RoutedEventArgs e)
         {
-           
+            Realities realities = new Realities();
+            realities.Show(); 
+            this.Hide();
         }
-       
         private void DemoButton_Click(object sender, RoutedEventArgs e)
         {
-
+            DemoEvent demoEvent = new DemoEvent();
+            demoEvent.Show(); this.Hide();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            this.WindowState = WindowState.Minimized;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Application.Current.Shutdown();
         }
     }
 }
