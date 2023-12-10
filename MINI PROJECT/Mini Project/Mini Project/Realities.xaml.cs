@@ -16,7 +16,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
-using System.IO;
 using SeleniumExtras.WaitHelpers;
 using OpenQA.Selenium.Support.UI;
 
