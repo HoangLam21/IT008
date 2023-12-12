@@ -18,8 +18,8 @@ Video demo: https://youtu.be/BMzvjBH-9LE?si=ttQz0D7ppy7q_6id
 Description: AUTO-TICKETBOOKING TOOL là một công cụ dùng để tự động đặt/ săn vé tại web ticketbox.vn, chỉ cần được cung cấp các thông tin cá nhân, thông tin thanh toán, tên vé, hẹn giờ đặt, loại vé, số lượng,... công cụ sẽ tự động chuyển hướng đến web và đặt vé không chỉ một mà có thể nhiều tài khoản cùng một lúc.
 
 How to use: Provide a way to install or clone/use.
-
-
+Vào đưonfg link sau: 
+https://drive.google.com/drive/folders/1Nvcy6eFxGsdCuLuANM7C3GMNJUhU9-cP
 
 Code of conducting: 
 - Tôn trọng tác giả tác quyền công cụ.
