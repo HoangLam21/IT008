@@ -1,6 +1,8 @@
 UIT
 AUTO-TICKETBOOKING TOOL
 
+LOGO: https://drive.google.com/file/d/1ns37HZBfqo4ov-zMfXc5FEiM5xppDRJZ/view?usp=sharing
+
 Contributors:
 Leader: Mai Tuấn An - 22520018 - https://github.com/HoangLam21
 Member: Gia Bảo Anh - 22520044 - https://github.com/GiaBaoAnh04
