@@ -24,6 +24,7 @@ Code of conducting:
 - Không sử dụng công cụ cho các mục đích xấu, vi phạm pháp luật.
 - Chịu trách nhiệm về độ chính xác, xác thực của thông tin khi tham gia đặt vé.
 - Các yêu cầu, phản hồi cần chính đáng.
+  
 License:
 MIT License
 
